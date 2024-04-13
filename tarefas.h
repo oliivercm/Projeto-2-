@@ -1,4 +1,6 @@
-#define TOTAL 100
+#define TOTAL_TAREFAS 100
+#define TAM_DESCRICAO 300
+#define TAM_CATEGORIA 100
 
 typedef struct {
     int prioridade;
