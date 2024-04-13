@@ -1,6 +1,4 @@
-#define TOTAL_TAREFAS 100
-#define TAM_DESCRICAO 300
-#define TAM_CATEGORIA 100
+#define TOTAL 100
 
 typedef struct {
     int prioridade;
@@ -16,7 +14,7 @@ typedef ERROS (*funcao)(Tarefa[], int*);
 ERROS criarTarefa(Tarefa tarefas[], int *pos);
 ERROS deletarTarefa(Tarefa tarefas[], int *pos);
 ERROS listarTarefas(Tarefa tarefas[], int *pos);
-ERROS exportarTarefas(Tarefa tarefas[], int *pos);
+ERROS salvarTarefas(Tarefa tarefas[], int *pos);
 ERROS carregarTarefas(Tarefa tarefas[], int *pos);
 
 void clearBuffer();
